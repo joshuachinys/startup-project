@@ -16,7 +16,7 @@ body {
 
 .list1{
 	font-family: calibri;
-	font-size: 14px;
+	font-size: 12px;
 	text-align: right;
 	list-style: none;
 	padding-left: 0;
@@ -51,7 +51,7 @@ p {
 
 .body{
 	display: grid;
-	grid-template-columns: 130px auto;
+	grid-template-columns: 120px auto;
 	overflow: hidden;
 }
 
