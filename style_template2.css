@@ -15,7 +15,7 @@ body {
 }
 
 .list1{
-	font-family: arial;
+	font-family: calibri;
 	font-size: 1rem;
 	text-align: right;
 	list-style: none;
@@ -23,7 +23,7 @@ body {
 }
 
 .list2{
-	font-family: arial;
+	font-family: calibri;
 	text-align: left;
 	list-style: none;
 	padding-left: 0;
@@ -31,6 +31,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+p {
+	font-family: calibri;	
 }
 
 /***********************************************************************
