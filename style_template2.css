@@ -53,6 +53,7 @@ p {
 .header{
 	margin: 5px;
 	padding: 5px;	
+	font-family: calibri;
 }
 
 .body{
@@ -64,6 +65,7 @@ p {
 .footer{
 	margin: auto;
 	padding: 5px;
+	font-family: calibri;
 }
 
 .Left{
