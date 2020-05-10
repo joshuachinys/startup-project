@@ -1,0 +1,96 @@
+/*
+Selector {
+	Property: value;
+}
+. sequence of selector matters (specificity, importance, source order)
+*/
+
+/***********************************************************************
+ *  To ensure contents do not overflow outside of container
+ **********************************************************************/
+
+body {
+	overflow: hidden;
+	margin: auto;
+}
+
+.list1{
+	font-family: calibri;
+	font-size: 14px;
+	text-align: right;
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+	font-family: calibri;
+}
+
+/***********************************************************************
+ *  Main container structure
+ **********************************************************************/
+
+.container{
+	display: grid;
+	height: 100vh;
+	width: 100vw;
+	border: 5px;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 30px;
+}
+
+.header{
+	margin: 5px;
+	padding: 5px;	
+	font-family: calibri;
+}
+
+.body{
+	display: grid;
+	grid-template-columns: 130px auto;
+	overflow: hidden;
+}
+
+.footer{
+	margin: auto;
+	padding: 5px;
+	font-family: calibri;
+}
+
+.Left{
+	background: #fff;
+	margin: 5px;
+	padding: 10px;
+}
+
+.Middle{
+	margin: 5px;
+	padding: 10px;
+	overflow-y: auto;
+}
+
+/***********************************************************************
+ *  Middle Grid Panel
+ **********************************************************************/
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 5px;
+}
+
+.box {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px;
+	font-size: 1rem;
+	color: #444;
+}
+ 
+.box > img {
+    width: 100%;
+}
